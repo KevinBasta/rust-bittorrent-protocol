@@ -1,10 +1,7 @@
-
-
-
 mod client;
-mod webserver;
+use crate::client::test_client;
 
 fn main() {
-    webserver();
+    test_client();
     println!("Hello, world!");
 }

@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 [profile.dev]
-RUST_BACKTRACE=1
+# RUST_BACKTRACE=1
