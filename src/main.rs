@@ -1,7 +1,18 @@
 mod client;
-use crate::client::test_client;
+mod torrent;
+mod peer;
+mod protocol;
+mod bencoding;
 
-fn main() {
-    test_client();
+use crate::torrent::{Torrent};
+use tokio;
+
+#[tokio::main]
+async fn main() {
+
+
+    let mut tor = Torrent::new(String::from("Hello, world!"));
+    Torrent::runtime().await    ;
+    
     println!("Hello, world!");
 }

@@ -1,5 +1,6 @@
-// Bencoding encodings
-
-pub struct BenList {
-    
+mod bencoding {
+    // Bencoding encodings
+    pub struct BenList {
+        
+    }   
 }
